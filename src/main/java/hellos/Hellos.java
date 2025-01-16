@@ -37,7 +37,7 @@ public class Hellos {
   private String georgeSaysHello() {
     return "George says 'Kalimera!'\n";
   }
-  
+
   private String jaydenSaysHello() {
     return "Jayden says 'Hello!'\n";
   }
@@ -77,10 +77,6 @@ public class Hellos {
 
   private String haiderSaysCuhh() {
     return "Haider says 'Cuhh!'\n";
-  }
-
-  private String jaydenSaysHello() {
-    return "Jayden says 'Hello!'\n";
   }
 
 }
