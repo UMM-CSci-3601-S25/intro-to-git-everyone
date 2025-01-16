@@ -9,18 +9,29 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
-    builder.append(kkSaysHello());
+    builder.append(jaydenSaysHello());
+    builder.append(KKSaysHello());
+    builder.append(mahathirSaysHello());
     builder.append(nicSaysHello());
 
     return builder.toString();
   }
 
-  private String nicSaysHello() {
-    return "Nic says 'Howdy!'\n";
+  private String jaydenSaysHello() {
+    return "Jayden says 'Hello!'\n";
   }
 
-  private String kkSaysHello() {
+  private String KKSaysHello() {
     return "KK says 'Hello!'\n";
+  }
+
+  private String mahathirSaysHello() {
+    return "Mahathir says 'Hello!'\n";
+  }
+
+  private String nicSaysHello() {
+    return "Nic says 'Hello!'\n";
+
   }
 
 }
