@@ -26,7 +26,7 @@ public class Hellos {
   }
 
   private String jamesSaysHello() {
-    return "James says 'Hello!'\n ";
+    return "James says 'Hello!'\n";
   }
 
   private String johnetteSaysHello() {
