@@ -62,4 +62,20 @@ public class Hellos {
 
   }
 
+  private Object mahathirSaysHello() {
+    return "Mahathir says 'Hiya!'\n";
+  }
+
+  private String fionaSaysSup() {
+    return "Fiona says 'Sup!'\n";
+  }
+
+  private String haiderSaysCuhh() {
+    return "Haider says 'Cuhh!'\n";
+  }
+
+  private String jaydenSaysHello() {
+    return "Jayden says 'Hello!'\n";
+  }
+
 }
