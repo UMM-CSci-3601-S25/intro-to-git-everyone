@@ -20,12 +20,14 @@ public class Hellos {
 
     return builder.toString();
   }
-  private String armandoSaysHello(){
+
+  private String armandoSaysHello() {
     return "Armando says 'What's up!'\n";
   }
 
   private String jaydenSaysHello() {
     return "Jayden says 'Hello!'\n";
+  }
 
   private String dylanSaysHello() {
     return "Dylan says 'Howdy!'\n";
@@ -46,10 +48,6 @@ public class Hellos {
   private String mahathirSaysHello() {
     return "Mahathir says 'Hello!'\n";
   }
-
-  private String nicSaysHello() {
-    return "Nic says 'Hello!'\n";
-
 
   private String thatcherSaysHello() {
     return "Thatcher says 'Holo!'\n";
