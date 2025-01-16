@@ -25,6 +25,26 @@ public class Hellos {
     return builder.toString();
   }
 
+  private String armandoSaysHello() {
+    return "Armando says 'What's up!'\n";
+  }
+
+  private String abhiSaysHello() {
+    return "Abhi says 'Hey!'\n";
+  }
+
+  private String georgeSaysHello() {
+    return "George says 'Kalimera!'\n";
+  }
+
+  private String dylanSaysHello() {
+    return "Dylan says 'Howdy!'\n";
+  }
+
+  private String elliotSaysHello() {
+    return "Elliot says 'Howdy!'\n";
+  }
+
   private String nicSaysHello() {
     return "Nic says 'Howdy!'\n";
   }
