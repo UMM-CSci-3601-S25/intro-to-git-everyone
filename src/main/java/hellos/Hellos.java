@@ -9,11 +9,16 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
     builder.append(antonSaysHello());
+    builder.append(armandoSaysHello());
+
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
     builder.append(thatcherSaysHello());
 
     return builder.toString();
+  }
+  private String armandoSaysHello(){
+    return "Armando says 'What's up!'\n";
   }
 
   private String nicSaysHello() {
