@@ -8,11 +8,21 @@ public class Hellos {
 
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
+    builder.append(abhiSaysHello());
+    builder.append(georgeSaysHello());
 
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
 
     return builder.toString();
+  }
+
+  private String abhiSaysHello() {
+    return "Abhi says 'Hey!'\n";
+  }
+
+  private String georgeSaysHello() {
+    return "George says 'Kalimera!'\n";
   }
 
   private String nicSaysHello() {
